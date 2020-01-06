@@ -1,7 +1,7 @@
 <?php
-    require "../../../../app_lista_tarefas/connection.php";
-    require "../../../../app_lista_tarefas/tarefa.model.php";
-    require "../../../../app_lista_tarefas/tarefa.service.php";
+    require "connection.php";
+    require "tarefa.model.php";
+    require "tarefa.service.php";
 
     $acao = isset($_GET['acao']) ? $_GET['acao'] : $acao;
     if($acao == 'inserir') {
